@@ -1,0 +1,17 @@
+.cg-wrapper { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+.cg-hero { background: linear-gradient(135deg, #d32323, #b71c1c); color: white; padding: 60px 40px; border-radius: 16px; text-align: center; margin-bottom: 40px; }
+.cg-hero h1 { font-size: 3rem; margin-bottom: 15px; }
+.cg-grid { display: grid; grid-template-columns: 300px 1fr; gap: 30px; }
+.cg-sidebar { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); position: sticky; top: 20px; height: fit-content; }
+.cg-form-group { margin-bottom: 20px; }
+.cg-label { display: block; font-weight: 600; margin-bottom: 8px; color: #333; }
+.cg-input { width: 100%; padding: 12px; border: 2px solid #e6e6e6; border-radius: 8px; font-size: 14px; }
+.cg-input:focus { border-color: #d32323; outline: none; }
+.cg-btn { width: 100%; background: #d32323; color: white; border: none; padding: 14px; border-radius: 8px; cursor: pointer; font-weight: 700; font-size: 15px; margin-top: 10px; }
+.cg-btn:hover { background: #b71c1c; }
+.cg-output { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.cg-citation-text { background: #f8f9ff; border-left: 4px solid #d32323; padding: 20px; font-style: italic; line-height: 1.7; min-height: 80px; }
+.cg-tabs { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+.cg-tab { padding: 10px 20px; border: 2px solid #e6e6e6; border-radius: 25px; background: white; cursor: pointer; font-weight: 600; }
+.cg-tab.active { background: #d32323; color: white; border-color: #d32323; }
+@media(max-width: 1024px){ .cg-grid{grid-template-columns:1fr;} .cg-sidebar{position:static;} }
